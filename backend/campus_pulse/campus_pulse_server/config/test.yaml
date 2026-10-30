@@ -1,0 +1,38 @@
+# This is the configuration file for your test environment.
+# All ports are set to zero in this file which makes the server find the next available port.
+# The repository tests run without a database.
+#
+# When running your server locally, the server ports are the same as the public
+# facing ports.
+
+# Configuration for the main API test server.
+apiServer:
+  port: 0
+  publicHost: localhost
+  publicPort: 0
+  publicScheme: http
+
+# Configuration for the Insights test server.
+insightsServer:
+  port: 0
+  publicHost: localhost
+  publicPort: 0
+  publicScheme: http
+
+# Configuration for the web test server.
+webServer:
+  port: 0
+  publicHost: localhost
+  publicPort: 0
+  publicScheme: http
+
+sessionLogs:
+  persistentEnabled: false
+  consoleEnabled: true
+# consoleLogFormat: json # Defaults to "json", options are "text" or "json"
+
+#futureCall:
+#  enabled: true # Defaults to true, set to false to disable scheduling and running future calls
+#  executionEnabled: true # Defaults to true
+#  concurrencyLimit: 1 # Defaults to 1, a negative or null value removes the limit
+#  scanInterval: 5000 # Unit in milliseconds, defaults to 5000

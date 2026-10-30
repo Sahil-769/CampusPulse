@@ -1,0 +1,9 @@
+class: StudyBuddyProfile
+fields:
+  id: int
+  name: String
+  major: String
+  year: String
+  subjects: List<String>
+  goals: List<String>
+  availability: List<String>

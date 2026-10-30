@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Temporary: inspect Serverpod CLI options",
+			"type": "shell",
+			"command": "serverpod",
+			"args": [
+				"create",
+				"--help"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}

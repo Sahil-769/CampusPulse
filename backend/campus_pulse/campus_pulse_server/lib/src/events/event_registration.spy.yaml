@@ -1,0 +1,5 @@
+class: EventRegistration
+fields:
+  eventId: int
+  studentId: String
+  registeredAt: DateTime

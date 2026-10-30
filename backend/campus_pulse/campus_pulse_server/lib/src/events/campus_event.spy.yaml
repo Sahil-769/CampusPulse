@@ -1,0 +1,11 @@
+class: CampusEvent
+fields:
+  id: int
+  title: String
+  category: String
+  startsAt: DateTime
+  venue: String
+  organizer: String
+  description: String
+  capacity: int
+  tags: List<String>

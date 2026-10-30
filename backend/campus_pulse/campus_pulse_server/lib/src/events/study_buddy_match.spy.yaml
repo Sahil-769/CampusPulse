@@ -1,0 +1,5 @@
+class: StudyBuddyMatch
+fields:
+  profile: StudyBuddyProfile
+  score: int
+  reasons: List<String>

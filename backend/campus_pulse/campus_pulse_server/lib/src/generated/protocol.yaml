@@ -1,0 +1,20 @@
+emailIdp:
+  - login:
+  - startRegistration:
+  - verifyRegistrationCode:
+  - finishRegistration:
+  - startPasswordReset:
+  - verifyPasswordResetCode:
+  - finishPasswordReset:
+  - hasAccount:
+jwtRefresh:
+  - refreshAccessToken:
+events:
+  - list:
+  - get:
+  - register:
+  - myRegistrations:
+  - create:
+  - matchStudyBuddies:
+greeting:
+  - hello:
